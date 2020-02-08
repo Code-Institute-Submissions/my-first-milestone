@@ -1,0 +1,479 @@
+body,
+html {
+    font-family: "Spectral", sans-serif;
+    font-size: 100%;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-color: rgba(0, 0, 0, 0.0);
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-top: 1em;
+    margin-bottom: .5em;
+    text-align: center;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+@media(min-width: 300px) {
+    #home #about #skills #testimonials #contact {
+        display: flex;
+
+    }
+}
+
+
+
+
+/*-----------------------------------Navbar------------------------------------*/
+
+.navbar {
+    padding-top: 70px;
+    margin-top: -70px;
+    width: 100%;
+    font-size: 1.2em;
+    padding-left: 20px;
+    text-transform: uppercase;
+    background-color: #afcfaf;
+    transition: top 0.3s;
+}
+
+.navbar-header {
+    width: 100%;
+    padding: 10px;
+    min-height: 100px;
+
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    text-decoration: none;
+    padding: 1em;
+    outline: none;
+
+}
+
+.navbar-nav ul li a {
+    text-decoration: none;
+    color: #404040 !important;
+    font-size: 20px;
+
+}
+
+.navbar-light .navbar-toggler {
+    text-align: right;
+    border: none !important;
+    outline: none !important;
+    padding-top: 35px;
+
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+
+}
+
+.navbar-collapse collapse {
+    text-align: center;
+    border-top: 1px solid transparent;
+    overflow-x: hidden;
+}
+
+.navbar-collapse collapse a {
+    transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
+
+}
+
+.navbar .navbar-nav li a:hover,
+.navbar .navbar-nav li a:active {
+    color: #fff;
+
+}
+
+
+/*-----------------------------------/Navbar------------------------------------*/
+
+
+/*-----------------------------------Home/landingpage-----------------------------*/
+
+
+#home {
+    height: 100vh;
+    width: 100%;
+}
+
+.color-overlay {
+    width: 100%;
+    background: #000;
+    opacity: 0.1;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 0;
+}
+
+.section-heading {
+    font-family: "Spectral", sans-serif;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+
+/*----------------------------------/Home/landingpage--------------------------*/
+
+
+/*-----------------------------------Jumbotron---------------------------------*/
+.jumbotron {
+    height: 100%;
+    width: 100%;
+    background-image: url(images/sunset-home-office.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+    z-index: 1;
+}
+
+.container-jumbotron {
+    position: relative;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.0);
+    border: none;
+    position: relative;
+    z-index: 2;
+}
+
+.jumbotron-header {
+    color: #fff;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.h2 .text {
+    color: #fff;
+    font-size: 2em;
+}
+
+.jumbotron .lead {
+    font-size: 30px;
+    font-style: italic;
+    color: #f2f2f2;
+}
+
+.jumbotron p {
+    color: #f2f2f2;
+}
+
+@media screen and (min-width: 300px) {
+    .jumbotron .h1 {
+        font-size: 63px;
+
+    }
+}
+
+/*-----------------------------------/Jumbotron-------------------------------*/
+
+
+/*-----------------------------------About------------------------------------*/
+
+#about {
+    width: 100vw;
+    display: inline-table;
+    position: relative;
+    background-color: #cfe2cf;
+
+}
+
+bg-color-about {
+    background-color: #cfe2cf;
+    background-size: cover;
+}
+
+#about .container-fluid p {
+    margin: auto;
+    padding-right: 50px;
+    padding-left: 25px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 1.7em;
+    line-height: 2;
+}
+
+.row-table {
+    margin: auto;
+    display: table;
+}
+
+.row-table .section-column {
+    display: flex;
+    padding: 0 75px 70px 25px;
+    float: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box2 img {
+    height: 400px;
+    border-radius: 25%;
+    z-index: 1;
+
+}
+
+/*-----------------------------------/About------------------------------------*/
+
+/*-----------------------------------Skills ------------------------------------*/
+
+#skills {
+    width: 100vw;
+    margin: 0;
+    box-sizing: border-box;
+    display: inline-flex;
+}
+
+.background {
+    width: 100vw;
+    margin: 0;
+    background: url(images/handsoncode.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.container-skills {
+    margin: 50px auto;
+    display: flex;
+    box-sizing: border-box;
+    z-index: 1;
+    flex-wrap: wrap;
+}
+
+.container-skills .row {
+    margin: auto;
+    padding: 10px 20px 70px;
+    width: 100vw;
+}
+
+.container-skills .column .chart {
+    display: inline-grid;
+    flex-flow: wrap;
+    text-align: center;
+    vertical-align: middle;
+    grid-row-gap: 50px;
+}
+
+.container-skills p {
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+}
+
+:root {
+    --size: 130px;
+    --bord: 6px;
+}
+
+.chart {
+    width: var(--size);
+    height: var(--size);
+    margin: 1em;
+    border: var(--bord) solid transparent;
+    border-radius: 50%;
+    background: linear-gradient(white, white) padding-box, conic-gradient(lightseagreen var(--value), lightgrey var(--value)) border-box;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8em;
+    z-index: 1;
+}
+
+.x-65 {
+    --value: 65%;
+}
+
+.x-60 {
+    --value: 60%;
+}
+
+.x-56 {
+    --value: 56%;
+}
+
+.x-46 {
+    --value: 46%;
+}
+
+.x-35 {
+    --value: 35%;
+}
+
+.x-25 {
+    --value: 25%;
+}
+
+@media(min-width: 300px) {
+    #skills {
+        display: flex;
+    }
+}
+
+/*-----------------------------------/Skills----------------------------------*/
+
+/*-----------------------------------Testimonials -----------------------------*/
+
+#testimonials {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    box-sizing: border-box;
+    background-color: #cfe2cf;
+}
+
+.row-quote {
+    width: 100vw;
+    margin: 0;
+    padding: 1rem 2rem 2rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin: 0;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #cfe2cf;
+}
+
+.card-body h5 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+.card img {
+    height: 200px;
+}
+
+.card-body p {
+    font-size: 1.7rem;
+    line-height: 2;
+}
+
+
+@media (max-width: 1200px) {
+    #testimonials .row-quote {
+        display: flex;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .card img {
+        margin: auto;
+        float: none;
+        display: inline-table;
+    }
+}
+
+/*-----------------------------------/Testimonials -----------------------------*/
+
+/*-----------------------------------Contact------------------------------------*/
+
+#contact {
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    background: url(images/penandpaper.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container-contact .column {
+    position: relative;
+    margin: 30px 25px 0px;
+}
+
+.container-contact .bottom-form {
+    padding: 5px 50px 70px;
+
+}
+
+.button[type="submit"] {
+    color: #fff;
+    background-color: #639c63;
+}
+
+/*-----------------------------------/Contact------------------------------------*/
+
+/*-----------------------------------Footer ------------------------------------*/
+
+.footer {
+    width: 100vw;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    padding: 5px;
+    background-color: #afcfaf;
+}
+
+.footer .col-xs-12 col-sm-12 icons {
+    display: block;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.fa:hover {
+    color: #fff;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.privacy-policy {
+    margin: 0;
+    padding-right: 15px;
+    color: #fff;
+    background-color: #afcfaf;
+    text-decoration: none;
+    text-align: right;
+}
