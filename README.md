@@ -51,11 +51,11 @@ In the Contact Form the 'required' attribute is added to the 'name,' 'email,' an
 
 All links have been manually tested to ensure that they are pointing to the correct destination.
 
- I run my code trough W3C validator html and css to see errors.
+ I run my code trough W3C validator html and css to see errors. I copy and paste my code into the section of direct input and press check.
 
 **Deployment**
 
-This site is hosted on Github pages. New commits will update on master branch.To run locally you can clone this repository into the editor of your choice by press clone button or pasting [https://github.com/Tess2019/my-first-milstone.git](https://github.com/Tess2019/my-first-milstone.git) into your terminal. To cut ties with this repository, type git remote rm origin into the terminal.
+This site is hosted on Github pages. New commits will update on master branch. To run locally you can clone this repository into the editor of your choice by press clone button or pasting [https://github.com/Tess2019/my-first-milstone.git](https://github.com/Tess2019/my-first-milstone.git) into your terminal. To cut ties with this repository, type git remote rm origin into the terminal.
 
 ## **					Credits**
 
