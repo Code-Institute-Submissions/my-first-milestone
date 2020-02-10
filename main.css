@@ -166,7 +166,6 @@ li {
     text-align: center;
     background: rgba(0, 0, 0, 0.0);
     border: none;
-    position: relative;
     z-index: 2;
 }
 
@@ -212,7 +211,7 @@ li {
 
 }
 
-bg-color-about {
+.bg-color-about {
     background-color: #cfe2cf;
     background-size: cover;
 }
@@ -232,7 +231,6 @@ bg-color-about {
     display: flex;
     box-sizing: border-box;
     padding: 0 75px 70px 25px;
-    float: none;
     justify-content: center;
     align-items: center;
 
