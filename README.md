@@ -5,7 +5,6 @@
 
 I present my portfolio website to prospective employers. I present the technologies i have been learning and a bit about myself, skills, testimonials and a contact form. I have chosen not to include my cv because in this moment in time it doesn't give me advantages for my prospective users. I have testimonials instead that reflects my personality. The skills that are shown is not accurate but instead just a example of how to show my future skills.
 
-**See my demo [here](https://8000-a256bb58-01d2-4c31-8b43-32db94eae2fc.ws-eu01.gitpod.io/)**
 
 ## **UX**
 
@@ -51,11 +50,17 @@ In the Contact Form the 'required' attribute is added to the 'name,' 'email,' an
 
 All links have been manually tested to ensure that they are pointing to the correct destination.
 
- I run my code trough W3C validator html and css to see errors. I copy and paste my code into the section of direct input and press check.
+I run my code trough W3C validator html and css to see errors. I copy and paste my code into the section of direct input and press check.
+
+During the testing phase, I realized that the responsiveness was the hardest for me to figure out in difrent browsers. I did thought that bootstrap explained a lot in turn of responsiveness. To fix some of the problems i added in media queries. I have to continue learning how to use media queries though.
+
+I started the process in C9 and deployed all my projects to Github. But after **a lot** of trouble in C9 were my work suddenly disappeared a lot of times even though i saved my work a lot of times i gave up and started to get really stressed out. I installed Brackets and started all over again. At the time of stress i forgot to deploy my all work into github, now i have learned my hard lesson.  
+
+
 
 **Deployment**
 
-This site is hosted on Github pages. New commits will update on master branch. To run locally you can clone this repository into the editor of your choice by press clone button or pasting [https://github.com/Tess2019/my-first-milstone.git](https://github.com/Tess2019/my-first-milstone.git) into your terminal. To cut ties with this repository, type git remote rm origin into the terminal.
+This site is hosted on Github pages. New commits will update on master branch. To run locally you can clone this repository into the editor of your choice by press clone button or pasting [https://github.com/Tess2019/my-first-milstone.git](https://github.com/Tess2019/my-first-milstone.git) into your terminal. To cut ties with this repository, type *git remote rm origin* into the terminal.
 
 ## **					Credits**
 
