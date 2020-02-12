@@ -1,4 +1,4 @@
-# my-first-milstone
+# my-first-milestone
 # **Terese Burman Portfolio**
 
 # First milestone project - Code Institute
@@ -60,7 +60,7 @@ I started the process in C9 and deployed all my projects to Github. But after **
 
 **Deployment**
 
-This site is hosted on Github pages. New commits will update on master branch. To run locally you can clone this repository into the editor of your choice by press clone button or pasting [https://github.com/Tess2019/my-first-milstone.git](https://github.com/Tess2019/my-first-milstone.git) into your terminal. To cut ties with this repository, type *git remote rm origin* into the terminal.
+This site is hosted on Github pages. New commits will update on master branch. To run locally you can clone this repository into the editor of your choice by press clone button or pasting [https://github.com/Tess2019/my-first-milestone.git](https://github.com/Tess2019/my-first-milestone.git) into your terminal. To cut ties with this repository, type *git remote rm origin* into the terminal.
 
 ## **					Credits**
 
