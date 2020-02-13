@@ -5,6 +5,8 @@
 
 I present my portfolio website to prospective employers. I present the technologies i have been learning and a bit about myself, skills, testimonials and a contact form. I have chosen not to include my cv because in this moment in time it doesn't give me advantages for my prospective users. I have testimonials instead that reflects my personality. The skills that are shown is not accurate but instead just a example of how to show my future skills.
 
+**See my demo [here](https://tess2019.github.io/my-first-milestone/)**
+
 
 ## **UX**
 
