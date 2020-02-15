@@ -170,25 +170,25 @@ li {
 }
 
 .jumbotron-header {
-    color: #fff;
+    color: #afcfaf;
     font-weight: bold;
     margin-top: 25px;
     margin-bottom: 20px;
 }
 
 .h2 .text {
-    color: #fff;
+    color: #afcfaf;
     font-size: 2em;
 }
 
 .jumbotron .lead {
     font-size: 30px;
     font-style: italic;
-    color: #f2f2f2;
+    color: #afcfaf;
 }
 
 .jumbotron p {
-    color: #f2f2f2;
+    color: #afcfaf;
 }
 
 @media screen and (min-width: 300px) {
