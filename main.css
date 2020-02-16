@@ -205,7 +205,8 @@ li {
 
 #about {
     width: 100vw;
-    display: inline-table;
+    display: flex;
+    box-sizing: border-box;
     position: relative;
     background-color: #cfe2cf;
 
@@ -216,28 +217,34 @@ li {
     background-size: cover;
 }
 
-#about .container-fluid p {
-    margin: auto;
-    padding-right: 50px;
-    padding-left: 25px;
+#about .row-table .container-fluid p {
+    margin: 15px;
+    padding: 15px;
     text-align: center;
     text-decoration: none;
     letter-spacing: 1px;
     font-size: 1.7em;
     line-height: 2;
+    justify-content: space-around;
  
 }
-
-.row-table .section-column {
+.row-box {
     display: flex;
-    box-sizing: border-box;
-    padding: 0 25px 70px 25px;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    margin-left: -15px;
+    margin-right: -15px;
+}
 
+.row .column-box  {
+    flex:50%;
+    box-sizing: border-box;
+    
 }
 .box2 img {
     height: 400px;
+    margin: 15px;
+    padding:15px;
     border-radius: 25%;
     z-index: 1;
 
