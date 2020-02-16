@@ -486,9 +486,11 @@ li {
 
 .privacy-policy {
     margin: 0;
-    padding-right: 15px;
+    padding: 5px;
     color: #fff;
     background-color: #afcfaf;
     text-decoration: none;
-    text-align: right;
+    text-align: center;
 }
+
+/*-----------------------------------/Footer ------------------------------------*/
