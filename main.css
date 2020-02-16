@@ -222,12 +222,9 @@ li {
     padding: 15px;
     text-align: center;
     text-decoration: none;
-    letter-spacing: 1px;
-    font-size: 1.7em;
-    line-height: 2;
-    justify-content: space-around;
- 
-}
+   }
+
+  
 .row-box {
     display: flex;
     flex-wrap: wrap;
@@ -237,9 +234,18 @@ li {
 }
 
 .row .column-box  {
+    margin:10px;
+    padding:20px;
     flex:50%;
     box-sizing: border-box;
-    
+    text-align: center;
+}
+ .box1 { 
+    padding:10px;
+    letter-spacing: 1px;
+    font-size: 1.7em;
+    line-height: 2
+ 
 }
 .box2 img {
     height: 400px;
@@ -249,7 +255,7 @@ li {
     z-index: 1;
 
 }
-@media (max-width:900px){
+@media (max-width: 500px){
     #about .container-fluid p {
     font-size: 1.2rem;
     }
@@ -442,6 +448,7 @@ li {
     padding: 5px 50px 70px;
 
 }
+
 
 .button[type="submit"] {
     color: #fff;
