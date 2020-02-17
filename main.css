@@ -402,6 +402,7 @@ li {
 }
  .row-quote p {
     display: flex;
+    font-style: italic;
     text-align: center;
     justify-content: center;
     font-size: 1.5rem;
