@@ -382,7 +382,7 @@ li {
     justify-content: center;
 }
 
-.card {
+.quote-guy .quote-girl {
     margin: 0;
     position: relative;
     align-items: center;
@@ -391,23 +391,17 @@ li {
     background-color: #cfe2cf;
 }
 
-.card-body h5 {
+.rounded-circle {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+ .row-quote p {
     display: flex;
     text-align: center;
     justify-content: center;
     font-size: 1.5rem;
-    line-height: 2;
-}
-
-.rounded-circle {
-    position: relative;
- height: 200px;
- width: 200px;
- border-radius: 50%;
-}
-
-.card-body p {
-    font-size: 1.7rem;
     line-height: 2;
 }
 
@@ -418,7 +412,7 @@ li {
         padding: 15px;
     }
 
-    .card img {
+    .rounded-circle img {
         margin: auto;
         float: none;
         display: inline-table;
@@ -490,6 +484,7 @@ li {
     background-color: #afcfaf;
     text-decoration: none;
     text-align: center;
+    
 }
 
 /*-----------------------------------/Footer ------------------------------------*/
