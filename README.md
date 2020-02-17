@@ -40,7 +40,7 @@ Copyright
 
 ### **Features Left to Implement**
 
-I would  like to add my CV as a link and with a download button when i have done my program. The skills chart are to be altered when i have the different skills for real. Also show work snippets from my upcoming projects and link them from my homepage. I chose not to have scrollspy for now because the small size of my page. But as i add content this maybe needs to be implemented.
+I would  like to add my CV as a link and with a download button when i have done my program. The skills chart are to be altered when i have the different skills for real. Also show work snippets from my upcoming projects and link them from my homepage. I chose not to have scrollspy for now because the small size of my page. But as i add content this maybe needs to be implemented. i also want to add Form Validation for separate Modals into contact form.
 
 ## **Testing**
 
