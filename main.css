@@ -205,6 +205,8 @@ li {
 
 #about {
     width: 100vw;
+    margin:0;
+    padding:15px;
     display: flex;
     box-sizing: border-box;
     position: relative;
@@ -217,17 +219,18 @@ li {
     background-size: cover;
 }
 
-#about .row-table .container-fluid p {
-    margin: 15px;
+#about .container-fluid .row-table {
+    margin: 20px;
     text-align: center;
     text-decoration: none;
-   }
+}
 
   
 .row-box {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
     margin-left: -15px;
     margin-right: -15px;
