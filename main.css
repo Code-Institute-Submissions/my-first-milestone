@@ -444,14 +444,19 @@ li {
 }
 
 .container-contact .form-group {
-    padding:10px;
+    padding:5px;
     justify-content:space-around;
-
 }
+
+.form-check-input {
+    position: absolute;
+    margin-top: -1.3rem;
+    margin-left: 2rem;
+}
+
 .form-row {
     justify-content: center;
 }
-
 .btn-primary {
     color: #fff;
     background-color: #639c63;
