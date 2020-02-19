@@ -434,22 +434,29 @@ li {
     background: url(images/penandpaper.jpg) no-repeat center center fixed;
     background-size: cover;
     background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
 }
 
 .container-contact .column {
     position: relative;
-    margin: 30px 25px 0px;
+    margin: 10px 25px 20px;
 }
 
-.container-contact .bottom-form {
-    padding: 5px 50px 70px;
+.container-contact .form-group {
+    padding:10px;
+    justify-content:space-around;
 
 }
+.form-row {
+    justify-content: center;
+}
 
-
-.button[type="submit"] {
+.btn-primary {
     color: #fff;
     background-color: #639c63;
+    border-color:#639c63;
+   
 }
 
 /*-----------------------------------/Contact------------------------------------*/
