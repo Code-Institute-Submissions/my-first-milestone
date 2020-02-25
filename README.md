@@ -40,7 +40,7 @@ Copyright
 
 ### **Features Left to Implement**
 
-I would  like to add my CV as a link and with a download button when i have done my program. The skills chart are to be altered when i have the different skills for real. Also show work snippets from my upcoming projects and link them from my homepage. I chose not to have scrollspy for now because the small size of my page. But as i add content this maybe needs to be implemented. i also want to add Form Validation for separate Modals into contact form.
+I would  like to add my CV as a link and with a download button when i have done my program. The skills chart are to be altered when i have the different skills for real. Also show work snippets from my upcoming projects and link them from my homepage. I chose not to have scrollspy for now because the small size of my page. But as i add content this maybe needs to be implemented.
 
 ## **Testing**
 
@@ -48,7 +48,7 @@ My intended outcome was of providing a showcase of myself and my personality. Th
 
 My page is providing a live version. My social media profiles shows by clicking on the icons in the footer.
 
-In the Contact Form the 'required' attribute is added to the 'name,' 'email,' and 'message' fields, so if those fields are not filled in, the form will not submit. When all field are valid, the page will reload. But when clicking the send button you will be directed to a error noting that informs you of why the mail not working.
+In the Contact Form the 'required' attribute is added to the 'name,' 'email,' and 'message' fields, so if those fields are not filled in, the form will not submit. When all field are valid and clicking on submit you will be directed to a error modal that informs you of why the mail not working.
 
 All links have been manually tested to ensure that they are pointing to the correct destination.
 
