@@ -173,7 +173,7 @@
 					<div class="col-12 my-3 text-center">
 						<h1 class="section-heading uppercase">Want to contact me?</h1>
 					</div>
-					<form action="/action_page.php" class="was-validated">
+					<form action="/action_page.php" class="needs-validation">
 						<div class="form-group">
 							<label for="Fullname">Fullname:</label>
 							<input type="text" class="form-control" id="fullname" placeholder="Enter fullname" name="Fullname" required>
@@ -200,7 +200,7 @@
                          </label>
 						</div>
                         <div class="form-row text-center">
-						<button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#modal-dialog-centered">submit</button>
+						<button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#modal-dialog-centered" data-show="false">submit</button>
                         </div>
 					</form>
 				</div>
@@ -255,7 +255,27 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js "
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous ">
 	</script>
+<script>
+        // Disable form submissions if there are invalid fields
+        (function() {
+            "use strict";
+            window.addEventListener("load", function() {
+                // Get the forms we want to add validation styles to
+                var forms = document.getElementsByClassName("needs-validation");
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener("submit", function(event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add("needs-validation");
+                    }, false);
+                });
+            }, false);
+        })();
 
+    </script>
 
 	<!--- /End Script Source Files -->
 
