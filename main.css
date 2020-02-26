@@ -217,14 +217,13 @@ li {
 }
 
 #about .container-fluid .row-table {
-    margin: 20px;
+    margin:0;
     text-align: center;
     text-decoration: none;
-}
-
-  
-.row-about {
-    display: flex;
+     
+     
+     
+     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
@@ -234,27 +233,30 @@ li {
 }
 
 .row .column-about  {
-    margin:30px;
+    display: inline-flex;
+    margin:0;
     flex:50%;
     box-sizing: border-box;
     text-align: center;
 }
- .box1 { 
-    padding:10px;
-    letter-spacing: 1px;
-    font-size: 1.7em;
-    line-height: 2
- 
-}
-.box2 img {
+.row .column-about .box1 img {
     height: 400px;
+    width: 400px;
     margin: 15px;
     padding:15px;
-    border-radius: 25%;
+    border-radius: 50%;
     z-index: 1;
 
 }
-@media (max-width: 500px){
+ .row .column-about .box2 { 
+    padding:10px;
+    letter-spacing: 1px;
+    font-size: 1.7em;
+    line-height: 2;
+ 
+}
+
+@media (max-width: 300px){
     #about .container-fluid p {
     font-size: 1.2rem;
     }
