@@ -187,9 +187,6 @@ li {
     color: #afcfaf;
 }
 
-.jumbotron p {
-    color: #afcfaf;
-}
 
 @media screen and (min-width: 300px) {
     .jumbotron .h1 {
@@ -445,19 +442,15 @@ li {
 
 .container-contact .form-group {
     padding:5px;
-    justify-content:space-around;
-}
-
-.form-check-input {
-    position: absolute;
-    margin-top: -1.3rem;
-    margin-left: 2rem;
+    
 }
 
 .form-row {
     justify-content: center;
 }
+
 .btn-primary {
+    margin-top: 20px;
     color: #fff;
     background-color: #639c63;
     border-color:#639c63;
