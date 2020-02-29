@@ -45,7 +45,6 @@ h1 {
     width: 100%;
     padding: 10px;
     min-height: 100px;
-
 }
 
 ul {
@@ -53,21 +52,18 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-
 }
 
 li {
     text-decoration: none;
     padding: 1em;
     outline: none;
-
 }
 
 .navbar-nav ul li a {
     text-decoration: none;
     color: #404040 !important;
     font-size: 20px;
-
 }
 
 .navbar-light .navbar-toggler {
@@ -75,7 +71,6 @@ li {
     border: none !important;
     outline: none !important;
     padding-top: 35px;
-
 }
 
 .navbar-toggler-icon {
@@ -86,7 +81,6 @@ li {
     content: "";
     background: no-repeat center center;
     background-size: 100% 100%;
-
 }
 
 .navbar-collapse collapse {
@@ -99,13 +93,11 @@ li {
     transition: all 2s ease-in-out;
     -moz-transition: all 2s ease-in-out;
     -webkit-transition: all 2s ease-in-out;
-
 }
 
 .navbar .navbar-nav li a:hover,
 .navbar .navbar-nav li a:active {
     color: #fff;
-
 }
 
 
@@ -208,7 +200,6 @@ li {
     align-items: center;
     justify-content: center;
     background-color: #cfe2cf;
-
 }
 
 .bg-color-about {
@@ -227,9 +218,7 @@ li {
 .container-fluid .row-table .about-row {
     text-align: center;
     padding-bottom: 30px;
-
 }
-
 
 .container-fluid .row-table .about-row img {
     width: 400px;
@@ -242,9 +231,7 @@ li {
     transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
-  
 }
-
 
 .about-text-container p {
     margin: auto;
@@ -257,8 +244,8 @@ li {
     letter-spacing: 1px;
     font-size: 1.7rem;
     line-height: 2;
-
 }
+
 @media screen and (max-width: 600px) {
     .row-table .about-text-container p {
         font-size: 1.2rem;
@@ -446,8 +433,7 @@ li {
 }
 
 .container-contact .form-group {
-    padding:5px;
-    
+    padding:5px;   
 }
 
 .form-row {
@@ -459,7 +445,6 @@ li {
     color: #fff;
     background-color: #639c63;
     border-color:#639c63;
-   
 }
 
 /*-----------------------------------/Contact------------------------------------*/
@@ -489,16 +474,6 @@ li {
     color: #fff;
     text-decoration: none;
     opacity: 1;
-}
-
-.privacy-policy {
-    margin: 0;
-    padding: 5px;
-    color: #fff;
-    background-color: #afcfaf;
-    text-decoration: none;
-    text-align: center;
-    
 }
 
 /*-----------------------------------/Footer ------------------------------------*/
