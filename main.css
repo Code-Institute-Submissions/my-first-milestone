@@ -230,24 +230,23 @@ li {
 
 }
 
-}
-.about-row img {
+
+.container-fluid .row-table .about-row img {
     width: 400px;
     height: 400px;
     border-radius: 50%;
     z-index: 1;
-    background: url("../html.f/images/me.jpg");
+    background: url("../images/terese.jpg");
     background-position: center;
     background-repeat: no-repeat;
     transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
-    padding-bottom: 15px;
+  
 }
 
 
 .about-text-container p {
-    font-size: 10vw;
     margin: auto;
     width: 50%;
     display: flex;
