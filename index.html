@@ -132,7 +132,7 @@
 
 	<!--- Testimonials/quotes/  -->
 	<section id="testimonials">
-		<div class="col-12 bg-color-testimonials">
+		<div class="bg-color-testimonials">
 			<div class="col-12 my-5 text-center">
 				<h1 class="section-heading uppercase">testimonials</h1>
 			</div>
@@ -217,7 +217,7 @@
 					<p>This link does not work at the moment. This page is for educational purpose only. </p>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" value="submit" class="btn btn-secondary" data-dismiss="modal">Close</button>
 				</div>
 			</div>
 		</div>
@@ -238,18 +238,18 @@
 	<script>
 		// Disable form submissions if there are invalid fields
 (function() {
-  'use strict';
-  window.addEventListener('load', function() {
+  "use strict";
+  window.addEventListener("load", function() {
     // Get the forms we want to add validation styles to
-    var forms = document.getElementsByClassName('needs-validation');
+    var forms = document.getElementsByClassName("needs-validation");
     // Loop over them and prevent submission
     var validation = Array.prototype.filter.call(forms, function(form) {
-      form.addEventListener('submit', function(event) {
+      form.addEventListener("submit", function(event) {
         if (form.checkValidity() === false) {
           event.preventDefault();
           event.stopPropagation();
         }
-        form.classList.add('was-validated');
+        form.classList.add("was-validated");
       }, false);
     });
   }, false);
